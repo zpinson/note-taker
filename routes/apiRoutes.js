@@ -21,14 +21,11 @@ router.post("/notes", (req, res) => {
     .then((note) => res.json(note))
     .catch((err) => res.status(500).json(err));
 });
-// create a delete request
-// router.delete("/notes", (req, res) => {
-//   store
-//     .getNotes()
-//     .then((notes) => {
-//       return res.json(notes);
-//     })
-//     .catch((err) => res.status(500).json(err));
-// });
+//create a delete request
+router.delete("/notes/:id", function(req, res) {
+  store.deleteNote(req.params.id)
+    .then(() => res.json({ok: true}))
+    .catch((err) => res.status(500).json(err));
+});
 
 module.exports = router;

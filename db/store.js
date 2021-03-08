@@ -34,10 +34,7 @@ class Store {
   }
   //create a function to remove note by id
 
-  deleteNote(id) {
-      
-
-  }
+  
 }
 
 module.exports = new Store();
