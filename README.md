@@ -11,3 +11,16 @@ Create an application to srore list of items the application should be able to p
 5. at any time you can write a new note by cliking on the pencil icon on the top of the page.
 
 ## Links:
+
+GitHub Ripo:
+https://github.com/zpinson/note-taker
+
+Hiroku deploy:
+https://notetakerzp.herokuapp.com/
+
+
+## Screenshots:
+
+![note-taker](public/assets/images/Capture.PNG)
+![note-taker](public/assets/images/Capture2.PNG)
+![note-taker](public/assets/images/Capture3.PNG)
